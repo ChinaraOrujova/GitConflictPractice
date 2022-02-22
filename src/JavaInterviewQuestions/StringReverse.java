@@ -8,5 +8,10 @@ public class StringReverse {
             newStringReversed += str.charAt(i);
 
         }
+        System.out.println(newStringReversed);
+    }
+
+    public static void main(String[] args) {
+        reverseString("Kristina loves Java");
     }
 }
